@@ -1,0 +1,4601 @@
+Model {
+  Name			  "simple_double_argon"
+  Version		  10.0
+  SavedCharacterEncoding  "windows-1252"
+  GraphicalInterface {
+    NumRootInports	    0
+    NumRootOutports	    0
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.14"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+    NumProvidedFunctions    0
+    NumRequiredFunctions    0
+    NumResetEvents	    0
+    HasInitializeEvent	    0
+    HasTerminateEvent	    0
+    PreCompExecutionDomainType "Unset"
+    IsExportFunctionModel   0
+    IsArchitectureModel	    0
+    IsAUTOSARArchitectureModel 0
+    NumParameterArguments   0
+    NumExternalFileReferences 51
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Convective Heat\nTransfer"
+      Path		      "simple_double_argon/Convective Heat Transfer"
+      SID		      "3"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Convective Heat\nTransfer"
+      Path		      "simple_double_argon/Convective Heat Transfer1"
+      SID		      "4"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Convective Heat\nTransfer"
+      Path		      "simple_double_argon/Convective Heat Transfer2"
+      SID		      "5"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Convective Heat\nTransfer"
+      Path		      "simple_double_argon/Convective Heat Transfer3"
+      SID		      "6"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Convective Heat\nTransfer"
+      Path		      "simple_double_argon/Convective Heat Transfer4"
+      SID		      "95"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Convective Heat\nTransfer"
+      Path		      "simple_double_argon/Convective Heat Transfer5"
+      SID		      "96"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Sensors/Temperature Sensor"
+      Path		      "simple_double_argon/Ideal Temperature Sensor"
+      SID		      "7"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Sensors/Temperature Sensor"
+      Path		      "simple_double_argon/Ideal Temperature Sensor1"
+      SID		      "8"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Sensors/Temperature Sensor"
+      Path		      "simple_double_argon/Ideal Temperature Sensor2"
+      SID		      "97"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Sources/Controlled\nTemperature Source"
+      Path		      "simple_double_argon/Ideal Temperature Source"
+      SID		      "9"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Sources/Controlled\nTemperature Source"
+      Path		      "simple_double_argon/Ideal Temperature Source1"
+      SID		      "10"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Sources/Controlled\nTemperature Source"
+      Path		      "simple_double_argon/Ideal Temperature Source2"
+      SID		      "98"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "nesl_utility/PS-Simulink\nConverter"
+      Path		      "simple_double_argon/PS-Simulink Converter"
+      SID		      "12"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "nesl_utility/PS-Simulink\nConverter"
+      Path		      "simple_double_argon/PS-Simulink Converter1"
+      SID		      "13"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "nesl_utility/PS-Simulink\nConverter"
+      Path		      "simple_double_argon/PS-Simulink Converter2"
+      SID		      "99"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "nesl_utility/Simulink-PS\nConverter"
+      Path		      "simple_double_argon/Simulink-PS Converter"
+      SID		      "15"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "nesl_utility/Simulink-PS\nConverter"
+      Path		      "simple_double_argon/Simulink-PS Converter1"
+      SID		      "16"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "nesl_utility/Simulink-PS\nConverter"
+      Path		      "simple_double_argon/Simulink-PS Converter2"
+      SID		      "100"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "nesl_utility/Solver\nConfiguration"
+      Path		      "simple_double_argon/Solver Configuration"
+      SID		      "17"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "nesl_utility/Solver\nConfiguration"
+      Path		      "simple_double_argon/Solver Configuration1"
+      SID		      "18"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "nesl_utility/Solver\nConfiguration"
+      Path		      "simple_double_argon/Solver Configuration2"
+      SID		      "101"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Thermal Reference"
+      Path		      "simple_double_argon/Thermal Reference"
+      SID		      "19"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Thermal Reference"
+      Path		      "simple_double_argon/Thermal Reference1"
+      SID		      "20"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Thermal Reference"
+      Path		      "simple_double_argon/Thermal Reference2"
+      SID		      "21"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Thermal Reference"
+      Path		      "simple_double_argon/Thermal Reference3"
+      SID		      "22"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Thermal Reference"
+      Path		      "simple_double_argon/Thermal Reference4"
+      SID		      "102"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Thermal Reference"
+      Path		      "simple_double_argon/Thermal Reference5"
+      SID		      "103"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+      Path		      "simple_double_argon/double_vitrage/Conductive Heat Transfer"
+      SID		      "24"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+      Path		      "simple_double_argon/double_vitrage/Conductive Heat Transfer1"
+      SID		      "25"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+      Path		      "simple_double_argon/double_vitrage/Conductive Heat Transfer2"
+      SID		      "26"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+      Path		      "simple_double_argon/double_vitrage/Conductive Heat Transfer3"
+      SID		      "27"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+      Path		      "simple_double_argon/double_vitrage/Conductive Heat Transfer4"
+      SID		      "28"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+      Path		      "simple_double_argon/double_vitrage/Conductive Heat Transfer5"
+      SID		      "29"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+      Path		      "simple_double_argon/double_vitrage/air"
+      SID		      "30"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+      Path		      "simple_double_argon/double_vitrage/window"
+      SID		      "31"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+      Path		      "simple_double_argon/double_vitrage/window1"
+      SID		      "32"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+      Path		      "simple_double_argon/double_vitrage gaz argon/Conductive Heat Transfer"
+      SID		      "105"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+      Path		      "simple_double_argon/double_vitrage gaz argon/Conductive Heat Transfer1"
+      SID		      "106"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+      Path		      "simple_double_argon/double_vitrage gaz argon/Conductive Heat Transfer2"
+      SID		      "107"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+      Path		      "simple_double_argon/double_vitrage gaz argon/Conductive Heat Transfer3"
+      SID		      "108"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+      Path		      "simple_double_argon/double_vitrage gaz argon/Conductive Heat Transfer4"
+      SID		      "109"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+      Path		      "simple_double_argon/double_vitrage gaz argon/Conductive Heat Transfer5"
+      SID		      "110"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+      Path		      "simple_double_argon/double_vitrage gaz argon/argon"
+      SID		      "111"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+      Path		      "simple_double_argon/double_vitrage gaz argon/window"
+      SID		      "112"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+      Path		      "simple_double_argon/double_vitrage gaz argon/window1"
+      SID		      "113"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+      Path		      "simple_double_argon/room"
+      SID		      "35"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+      Path		      "simple_double_argon/room1"
+      SID		      "36"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+      Path		      "simple_double_argon/room2"
+      SID		      "116"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+      Path		      "simple_double_argon/simple_vitrage/Conductive Heat Transfer"
+      SID		      "38"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+      Path		      "simple_double_argon/simple_vitrage/Conductive Heat Transfer1"
+      SID		      "39"
+      Type		      "LIBRARY_BLOCK"
+    }
+    ExternalFileReference {
+      Reference		      "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+      Path		      "simple_double_argon/simple_vitrage/window"
+      SID		      "40"
+      Type		      "LIBRARY_BLOCK"
+    }
+    OrderedModelArguments   1
+  }
+  DiagnosticSuppressor	  "on"
+  LogicAnalyzerPlugin	  "on"
+  SLCCPlugin		  "on"
+  AnimationPlugin	  "on"
+  WebScopes_FoundationPlugin "on"
+  NotesPlugin		  "on"
+  EnableAccessToBaseWorkspace on
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  UserBdParams		  "PhysicalModelingChecksum;PhysicalModelingParameterChecksum;PhysicalModelingProducts"
+  LastSavedArchitecture	  "win64"
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    1
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      2
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [-8.0, -8.0, 1936.0, 1216.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		3
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
+	Minimized		"Unset"
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Array {
+	Type			"Simulink.EditorInfo"
+	Dimension		4
+	Object {
+	  $ObjectID		  5
+	  IsActive		  [1]
+	  IsTabbed		  [1]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [2357.0, 1227.0]
+	  ZoomFactor		  [1.1654002945048543]
+	  Offset		  [-140.26006213052278, -2.0130396963288604]
+	  SceneRectInView	  [-140.26006213052278, -2.0130396963288604, 1617.9848322426744, 842.28569756544823]
+	}
+	Object {
+	  $ObjectID		  6
+	  IsActive		  [0]
+	  IsTabbed		  [1]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "104"
+	  Extents		  [2357.0, 1227.0]
+	  ZoomFactor		  [1.9399999999999997]
+	  Offset		  [-85.7731958762887, -169.12375257731978]
+	  SceneRectInView	  [-85.7731958762887, -169.12375257731978, 971.958762886598, 505.979381443299]
+	}
+	Object {
+	  $ObjectID		  7
+	  IsActive		  [0]
+	  IsTabbed		  [1]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "23"
+	  Extents		  [2357.0, 1227.0]
+	  ZoomFactor		  [1.9399999999999997]
+	  Offset		  [-85.7731958762887, -169.12375257731978]
+	  SceneRectInView	  [-85.7731958762887, -169.12375257731978, 971.958762886598, 505.979381443299]
+	}
+	Object {
+	  $ObjectID		  8
+	  IsActive		  [0]
+	  IsTabbed		  [1]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "37"
+	  Extents		  [2357.0, 1227.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-764.9, -406.00008]
+	  SceneRectInView	  [-764.9, -406.00008, 1885.6, 981.6]
+	}
+	PropName		"EditorsInfo"
+      }
+      Object {
+	$PropName		"DockComponentsInfo"
+	$ObjectID		9
+	$ClassName		"Simulink.DockComponentInfo"
+	Type			"GLUE2:PropertyInspector"
+	ID			"Property Inspector"
+	Visible			[0]
+	CreateCallback		""
+	UserData		""
+	Floating		[0]
+	DockPosition		"Right"
+	Width			[512]
+	Height			[384]
+	Minimized		"Unset"
+      }
+      WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAAA/sAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
+      "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAAB5AP///wAAAAEAAAAAAAAAAPwCA"
+      "AAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZ"
+      "QBjAHQAbwByAAAAAAD/////AAAARgD///8AAAliAAAFEQAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAA"
+      Array {
+	Type			"Cell"
+	Dimension		0
+	PropName		"PersistedApps"
+      }
+      WindowUuid	      "463fb046-ce0a-49f7-bc6c-c0954f77b65b"
+    }
+    BDUuid		    "d11a6d87-1aee-4289-a45c-0dca45d38be1"
+  }
+  HideAutomaticNames	  on
+  PhysicalModelingChecksum "1558454279"
+  PhysicalModelingParameterChecksum "3837386777"
+  PhysicalModelingProducts "Simscape"
+  Created		  "Thu Mar 31 15:46:16 2011"
+  Creator		  "jlanfrey"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "Ivan"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Tue Oct 15 15:30:41 2019"
+  RTWModifiedTimeStamp	  493054227
+  ModelVersionFormat	  "1.%<AutoIncrement:14>"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "none"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowAllPropagatedSignalLabels	off
+  PortDataTypeDisplayFormat "AliasTypeOnly"
+  ShowEditTimeErrors	  on
+  ShowEditTimeWarnings	  on
+  ShowEditTimeAdvisorChecks off
+  ShowPortUnits		  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  VariantCondition	  off
+  ShowSubsystemDomainSpec off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  ShowVisualizeInsertedRTB on
+  ShowMarkup		  on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  BlockVariantConditionDataTip off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  FunctionConnectors	  off
+  BrowserLookUnderMasks	  off
+  MultiThreadCoSim	  on
+  SimulationMode	  "normal"
+  SILPILModeSetting	  "automated"
+  SILPILSystemUnderTest	  "topmodel"
+  SILPILSimulationModeTopModel "normal"
+  SILPILSimulationModeModelRef "normal"
+  SimTabSimulationMode	  "normal"
+  CodeVerificationMode	  "software-in-the-loop (sil)"
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  EnablePacing		  off
+  PacingRate		  1
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    10
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "simple_double_argon"
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "simple_double_argon"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      ""
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  OrderedModelArguments	  on
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      11
+      Version		      "19.1.1"
+      DisabledProps	      []
+      Description	      ""
+      Array {
+	Type			"Handle"
+	Dimension		10
+	Simulink.SolverCC {
+	  $ObjectID		  12
+	  Version		  "19.1.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
+	  StartTime		  "0.0"
+	  StopTime		  "3600*24"
+	  AbsTol		  "auto"
+	  AutoScaleAbsTol	  on
+	  FixedStep		  "auto"
+	  InitialStep		  "auto"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  EnableMultiTasking	  on
+	  ConcurrentTasks	  off
+	  Solver		  "ode15s"
+	  SolverName		  "ode15s"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverInfoToggleStatus  off
+	  IsAutoAppliedInSIP	  off
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	  SampleTimeProperty	  []
+	  DecoupledContinuousIntegration off
+	  MinimalZcImpactIntegration off
+	  SolverOrder		  3
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  13
+	  Version		  "19.1.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveOperatingPoint	  off
+	  SaveFormat		  "Array"
+	  SignalLoggingSaveFormat "ModelDataLogs"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  StreamToWorkspace	  off
+	  StreamVariableName	  "streamout"
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	  LoggingToFile		  off
+	  DatasetSignalFormat	  "timeseries"
+	  LoggingFileName	  "out.mat"
+	  LoggingIntervals	  "[-inf, inf]"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  14
+	  Version		  "19.1.1"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    9
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    Cell		    "EfficientTunableParamExpr"
+	    PropName		    "DisabledProps"
+	  }
+	  Description		  ""
+	  Components		  []
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  DefaultParameterBehavior "Tunable"
+	  UseDivisionForNetSlopeComputation "off"
+	  GainParamInheritBuiltInType off
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  AdvancedOptControl	  ""
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  PassReuseOutputArgsThreshold 12
+	  ExpressionDepthLimit	  2147483647
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "off"
+	  AccelVerboseBuild	  off
+	  OptimizeBlockOrder	  "off"
+	  OptimizeDataStoreBuffers on
+	  BusAssignmentInplaceUpdate on
+	  DifferentSizesBufferReuse off
+	  UseRowMajorAlgorithm	  off
+	  OptimizationLevel	  "level2"
+	  OptimizationPriority	  "Balanced"
+	  OptimizationCustomize	  on
+	  LabelGuidedReuse	  off
+	  MultiThreadedLoops	  off
+	  DenormalBehavior	  "GradualUnderflow"
+	  EfficientTunableParamExpr off
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  15
+	  Version		  "19.1.1"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    "UseOnlyExistingSharedCode"
+	    PropName		    "DisabledProps"
+	  }
+	  Description		  ""
+	  Components		  []
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  StringTruncationChecking "error"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Classic"
+	  MergeDetectMultiDrivingBlocksExec "none"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "warning"
+	  InheritedTsInSrcMsg	  "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  ExportedTasksRateTransMsg "none"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "warning"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  UseOnlyExistingSharedCode "error"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "error"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  AllowSymbolicDim	  on
+	  RowMajorDimensionSupport off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "warning"
+	  OperatingPointInterfaceChecksumMismatchMsg "warning"
+	  NonCurrentReleaseOperatingPointMsg "error"
+	  ChecksumConsistencyForSSReuse	"none"
+	  PregeneratedLibrarySubsystemCodeDiagnostic "warning"
+	  MatchCodeGenerationContextForUpdateDiagram "none"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  SymbolicDimMinMaxWarning "warning"
+	  LossOfSymbolicDimsSimulationWarning "warning"
+	  LossOfSymbolicDimsCodeGenerationWarning "error"
+	  SymbolicDimsDataTypeCodeGenerationDiagnostic "error"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnreachableExecutionPathDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	  SFOutputUsedAsStateInMooreChartDiag "error"
+	  SFTemporalDelaySmallerThanSampleTimeDiag "warning"
+	  SFSelfTransitionDiag	  "warning"
+	  SFExecutionAtInitializationDiag "none"
+	  SFMachineParentedDataDiag "warning"
+	  IntegerSaturationMsg	  "warning"
+	  AllowedUnitSystems	  "all"
+	  UnitsInconsistencyMsg	  "warning"
+	  AllowAutomaticUnitConversions	on
+	  RCSCRenamedMsg	  "warning"
+	  RCSCObservableMsg	  "warning"
+	  ForceCombineOutputUpdateInSim	off
+	  UnitDatabase		  ""
+	  UnderSpecifiedDimensionMsg "none"
+	  DebugExecutionForFMUViaOutOfProcess off
+	  ArithmeticOperatorsInVariantConditions "warning"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  16
+	  Version		  "19.1.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdBitPerSizeT	  32
+	  ProdBitPerPtrDiffT	  32
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "Unspecified"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
+	  ProdHWDeviceType	  "32-bit Generic"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetBitPerSizeT	  32
+	  TargetBitPerPtrDiffT	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	  UseEmbeddedCoderFeatures on
+	  UseSimulinkCoderFeatures on
+	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  17
+	  Version		  "19.1.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  EnableRefExpFcnMdlSchedulingChecks on
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelDependencies	  ""
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  18
+	  Version		  "19.1.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
+	  SimCustomSourceCode	  ""
+	  SimCustomHeaderCode	  ""
+	  SimCustomInitializer	  ""
+	  SimCustomTerminator	  ""
+	  SimReservedNameArray	  []
+	  SimUserSources	  ""
+	  SimUserIncludeDirs	  ""
+	  SimUserLibraries	  ""
+	  SimUserDefines	  ""
+	  SimCustomCompilerFlags  ""
+	  SimCustomLinkerFlags	  ""
+	  SFSimEcho		  on
+	  SimCtrlC		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimAnalyzeCustomCode	  off
+	  SimBuildMode		  "sf_incremental_build"
+	  SimGenImportedTypeDefs  off
+	  ModelFunctionsGlobalVisibility "on"
+	  CompileTimeRecursionLimit 50
+	  EnableRuntimeRecursion  on
+	  MATLABDynamicMemAlloc	  on
+	  MATLABDynamicMemAllocThreshold 65536
+	  CustomCodeFunctionArrayLayout	[]
+	  DefaultCustomCodeFunctionArrayLayout "NotSpecified"
+	  CustomCodeUndefinedFunction "UseInterfaceOnly"
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  19
+	  Version		  "19.1.1"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    16
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "PortableWordSizes"
+	    Cell		    "GenerateWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    Cell		    "GenerateCodeReplacementReport"
+	    Cell		    "GenerateMissedCodeReplacementReport"
+	    Cell		    "GenerateErtSFunction"
+	    Cell		    "CreateSILPILBlock"
+	    Cell		    "CodeExecutionProfiling"
+	    Cell		    "CodeProfilingSaveOptions"
+	    Cell		    "CodeProfilingInstrumentation"
+	    PropName		    "DisabledProps"
+	  }
+	  Description		  ""
+	  SystemTargetFile	  "grt.tlc"
+	  HardwareBoard		  "None"
+	  ShowCustomHardwareApp	  off
+	  ShowEmbeddedHardwareApp off
+	  TLCOptions		  ""
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  PackageName		  ""
+	  TemplateMakefile	  "grt_default_tmf"
+	  PostCodeGenCommand	  ""
+	  GenerateReport	  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  RTWBuildHooks		  []
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  CustomSourceCode	  ""
+	  CustomHeaderCode	  ""
+	  CustomInclude		  ""
+	  CustomSource		  ""
+	  CustomLibrary		  ""
+	  CustomDefine		  ""
+	  CustomBLASCallback	  ""
+	  CustomLAPACKCallback	  ""
+	  CustomFFTCallback	  ""
+	  CustomInitializer	  ""
+	  CustomTerminator	  ""
+	  Toolchain		  "Automatically locate an installed toolchain"
+	  BuildConfiguration	  "Faster Builds"
+	  CustomToolchainOptions  []
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation "off"
+	  SILDebugging		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  GenerateMissedCodeReplacementReport off
+	  RTWCompilerOptimization "off"
+	  ObjectivePriorities	  []
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  SharedConstantsCachingThreshold 1024
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      20
+	      Version		      "19.1.1"
+	      Array {
+		Type			"Cell"
+		Dimension		28
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"ReqsInCode"
+		Cell			"InternalIdentifier"
+		Cell			"CustomSymbolStrModelFcn"
+		Cell			"CustomSymbolStrUtil"
+		Cell			"CustomSymbolStrEmxType"
+		Cell			"CustomSymbolStrEmxFcn"
+		Cell			"CustomUserTokenString"
+		Cell			"BlockCommentType"
+		PropName		"DisabledProps"
+	      }
+	      Description	      ""
+	      Components	      []
+	      Comment		      ""
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      CommentStyle	      "Auto"
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      OperatorAnnotations     off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      MangleLength	      1
+	      SharedChecksumLength    8
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M_T"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrModelFcn "$R$N"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      CustomSymbolStrEmxType  "emxArray_$M$N"
+	      CustomSymbolStrEmxFcn   "emx$M$N"
+	      CustomUserTokenString   ""
+	      CustomCommentsFcn	      ""
+	      DefineNamingRule	      "None"
+	      DefineNamingFcn	      ""
+	      ParamNamingRule	      "None"
+	      ParamNamingFcn	      ""
+	      SignalNamingRule	      "None"
+	      SignalNamingFcn	      ""
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      BlockCommentType	      "BlockPathComment"
+	      StateflowObjectComments on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InternalIdentifierFile  ""
+	      InternalIdentifier      "Shortened"
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	      ReservedNameArray	      []
+	      EnumMemberNameClash     "error"
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      21
+	      Version		      "19.1.1"
+	      Array {
+		Type			"Cell"
+		Dimension		19
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"RemoveDisableFunc"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"CPPClassGenCompliant"
+		Cell			"RemoveResetFunc"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		Cell			"PortableWordSizes"
+		Cell			"ExistingSharedCode"
+		Cell			"GenerateAllocFcn"
+		Cell			"PreserveStateflowLocalDataDimensions"
+		PropName		"DisabledProps"
+	      }
+	      Description	      ""
+	      Components	      []
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C89/C90 (ANSI)"
+	      CodeReplacementLibrary  "None"
+	      UtilityFuncGeneration   "Auto"
+	      MultiwordTypeDef	      "System defined"
+	      MultiwordLength	      2048
+	      DynamicStringBufferSize 256
+	      GenerateFullHeader      on
+	      InferredTypesCompatibility off
+	      ExistingSharedCode      ""
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Disable all"
+	      CombineOutputUpdateFcns off
+	      CombineSignalStateStructs	off
+	      GroupInternalDataByFunction off
+	      SuppressErrorStatus     off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      MultiInstanceERTCode    off
+	      CodeInterfacePackaging  "Nonreusable function"
+	      PurelyIntegerCode	      off
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      RemoveDisableFunc	      off
+	      RemoveResetFunc	      off
+	      SupportVariableSizeSignals off
+	      ParenthesesLevel	      "Nominal"
+	      CastingMode	      "Nominal"
+	      PreserveStateflowLocalDataDimensions off
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    on
+	      AutosarCompliant	      off
+	      MDXCompliant	      off
+	      GRTInterface	      on
+	      GenerateAllocFcn	      off
+	      UseToolchainInfoCompliant	on
+	      GenerateSharedConstants on
+	      CoderGroups	      []
+	      AccessMethods	      []
+	      LookupTableObjectStructAxisOrder "1,2,3,4,..."
+	      LUTObjectStructOrderExplicitValues "Size,Breakpoints,Table"
+	      LUTObjectStructOrderEvenSpacing "Size,Breakpoints,Table"
+	      ArrayLayout	      "Column-major"
+	      UnsupportedSFcnMsg      "error"
+	      ERTHeaderFileRootName   "$R$E"
+	      ERTSourceFileRootName   "$R$E"
+	      ERTDataFileRootName     "$R_data"
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeMexArgs	      ""
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	      MultiInstanceErrorCode  "Error"
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	SlCovCC.ConfigComp {
+	  $ObjectID		  22
+	  Version		  "19.1.1"
+	  DisabledProps		  []
+	  Description		  "Simulink Coverage Configuration Component"
+	  Components		  []
+	  Name			  "Simulink Coverage"
+	  CovEnable		  off
+	  CovScope		  "EntireSystem"
+	  CovIncludeTopModel	  on
+	  RecordCoverage	  off
+	  CovPath		  "/"
+	  CovSaveName		  "covdata"
+	  CovCompData		  ""
+	  CovMetricSettings	  "dw"
+	  CovFilter		  ""
+	  CovHTMLOptions	  ""
+	  CovNameIncrementing	  off
+	  CovHtmlReporting	  on
+	  CovForceBlockReductionOff on
+	  CovEnableCumulative	  on
+	  CovSaveCumulativeToWorkspaceVar on
+	  CovSaveSingleToWorkspaceVar on
+	  CovCumulativeVarName	  "covCumulativeData"
+	  CovCumulativeReport	  off
+	  CovSaveOutputData	  on
+	  CovOutputDir		  "slcov_output/$ModelName$"
+	  CovDataFileName	  "$ModelName$_cvdata"
+	  CovShowResultsExplorer  on
+	  CovReportOnPause	  on
+	  CovModelRefEnable	  "off"
+	  CovModelRefExcluded	  ""
+	  CovExternalEMLEnable	  off
+	  CovSFcnEnable		  on
+	  CovBoundaryAbsTol	  1e-05
+	  CovBoundaryRelTol	  0.01
+	  CovUseTimeInterval	  off
+	  CovStartTime		  0
+	  CovStopTime		  0
+	  CovMcdcMode		  "Masking"
+	}
+	SSC.SimscapeCC {
+	  $ObjectID		  23
+	  Version		  "1.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    "Name"
+	    PropName		    "DisabledProps"
+	  }
+	  Description		  ""
+	  Components		  []
+	  Name			  "Simscape"
+	  EditingMode		  "Full"
+	  ExplicitSolverDiagnosticOptions "warning"
+	  GlobalZcOffDiagnosticOptions "warning"
+	  SimscapeNormalizeSystem off
+	  SimscapeNominalValues	  "[{\"value\":\"1\",\"unit\":\"A\"},{\"value\":\"1\",\"unit\":\"bar\"},{\"value\":\"1\",\"un"
+	  "it\":\"cm^2\"},{\"value\":\"1\",\"unit\":\"cm^3/s\"},{\"value\":\"1\",\"unit\":\"kJ/kg\"},{\"value\":\"1\",\"unit\""
+	  ":\"kW\"},{\"value\":\"1\",\"unit\":\"l\"},{\"value\":\"1\",\"unit\":\"N\"},{\"value\":\"1\",\"unit\":\"N*m\"},{\"va"
+	  "lue\":\"1\",\"unit\":\"V\"}]"
+	  SimscapeLogType	  "none"
+	  SimscapeLogSimulationStatistics off
+	  SimscapeLogToSDI	  off
+	  SimscapeLogOpenViewer	  off
+	  SimscapeLogName	  "simlog"
+	  SimscapeLogDecimation	  1
+	  SimscapeLogLimitData	  on
+	  SimscapeLogDataHistory  5000
+	  SimscapeUseOperatingPoints off
+	  SimscapeOperatingPoint  ""
+	  SelectedTab		  ""
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition    [ 520, 285, 1400, 915 ]
+      ExtraOptions	      ""
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    11
+  }
+  Object {
+    $PropName		    "DataTransfer"
+    $ObjectID		    24
+    $ClassName		    "Simulink.GlobalDataTransfer"
+    DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
+    DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
+    DefaultTransitionBetweenContTasks "Ensure deterministic transfer (minimum delay)"
+    DefaultExtrapolationMethodBetweenContTasks "None"
+  }
+  ExplicitPartitioning	  off
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    HideAutomaticName	    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    MarkupType		    "model"
+    UseDisplayTextAsClickCallback off
+    AnnotationType	    "note_annotation"
+    FixedHeight		    off
+    FixedWidth		    off
+    Interpreter		    "off"
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "opaque"
+    RunInitForIconRedraw    "analyze"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      SamplingMode	      "Sample based"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
+      LockScale		      off
+      SampleTime	      "inf"
+      FramePeriod	      "inf"
+      PreserveConstantTs      off
+    }
+    Block {
+      BlockType		      Mux
+      Inputs		      "4"
+      DisplayOption	      "none"
+      UseBusObject	      off
+      BusObject		      "BusObject"
+      NonVirtualBus	      off
+    }
+    Block {
+      BlockType		      PMIOPort
+      Port		      "1"
+    }
+    Block {
+      BlockType		      Scope
+      DefaultConfigurationName "Simulink.scopes.TimeScopeBlockCfg"
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      ScheduleAs	      "Sample time"
+      SystemSampleTime	      "-1"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      FunctionInterfaceSpec   "void_void"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Opaque		      off
+      MaskHideContents	      off
+      SFBlockType	      "NONE"
+      VariantControlMode      "Expression"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+      AllowZeroVariantControls off
+      PropagateVariantConditions off
+      TreatAsGroupedWhenPropagatingVariantConditions on
+      ContentPreviewEnabled   off
+      IsWebBlock	      off
+      IsObserver	      off
+      Latency		      "0"
+      AutoFrameSizeCalculation off
+      IsWebBlockPanel	      off
+    }
+  }
+  System {
+    Name		    "simple_double_argon"
+    Location		    [-8, -8, 1928, 1208]
+    Open		    on
+    PortBlocksUseCompactNotation off
+    SetExecutionDomain	    off
+    ExecutionDomainType	    "Deduce"
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "A4"
+    PaperUnits		    "centimeters"
+    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "117"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "121"
+    SimulinkSubDomain	    "Simulink"
+    Block {
+      BlockType		      Constant
+      Name		      "Constant"
+      SID		      "1"
+      Position		      [1290, 150, 1320, 180]
+      ZOrder		      -1
+      BlockMirror	      on
+      ShowName		      off
+      Value		      "10"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant1"
+      SID		      "2"
+      Position		      [1290, 435, 1320, 465]
+      ZOrder		      -2
+      BlockMirror	      on
+      ShowName		      off
+      Value		      "10"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant2"
+      SID		      "94"
+      Position		      [1290, 730, 1320, 760]
+      ZOrder		      -3
+      BlockMirror	      on
+      ShowName		      off
+      Value		      "10"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Convective Heat\nTransfer"
+      SID		      "3"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [575, 131, 615, 159]
+      ZOrder		      -4
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Elements/Convective Heat\nTransfer"
+      SourceType	      "Convective Heat\nTransfer"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.elements.convection"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation."
+      "thermal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":["
+      "]}"
+      ComponentPath	      "foundation.thermal.elements.convection"
+      ComponentVariants	      "foundation.thermal.elements.convection"
+      ComponentVariantNames   "convection"
+      ClassName		      "convection"
+      SchemaVersion	      "1"
+      area		      "0.6*1"
+      area_unit		      "m^2"
+      area_conf		      "compiletime"
+      heat_tr_coeff	      "1/0.13"
+      heat_tr_coeff_unit      "W/(m^2 * K)"
+      heat_tr_coeff_conf      "compiletime"
+      T_specify		      off
+      T_priority	      "None"
+      T			      "0"
+      T_unit		      "K"
+      T_nominal_specify	      off
+      T_nominal_unit	      "K"
+      T_nominal_value	      "1"
+      Q_specify		      off
+      Q_priority	      "None"
+      Q			      "0"
+      Q_unit		      "J/s"
+      Q_nominal_specify	      off
+      Q_nominal_unit	      "J/s"
+      Q_nominal_value	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Position		[571, 145]
+      }
+      Port {
+	PortType		3
+	PortNumber		1
+	Position		[619, 145]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Convective Heat\nTransfer1"
+      SID		      "4"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [875, 131, 915, 159]
+      ZOrder		      -5
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Elements/Convective Heat\nTransfer"
+      SourceType	      "Convective Heat\nTransfer"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.elements.convection"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation."
+      "thermal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":["
+      "]}"
+      ComponentPath	      "foundation.thermal.elements.convection"
+      ComponentVariants	      "foundation.thermal.elements.convection"
+      ComponentVariantNames   "convection"
+      ClassName		      "convection"
+      SchemaVersion	      "1"
+      area		      "0.6*1"
+      area_unit		      "m^2"
+      area_conf		      "compiletime"
+      heat_tr_coeff	      "1/0.04"
+      heat_tr_coeff_unit      "W/(m^2 * K)"
+      heat_tr_coeff_conf      "compiletime"
+      T_specify		      off
+      T_priority	      "None"
+      T			      "0"
+      T_unit		      "K"
+      T_nominal_specify	      off
+      T_nominal_unit	      "K"
+      T_nominal_value	      "1"
+      Q_specify		      off
+      Q_priority	      "None"
+      Q			      "0"
+      Q_unit		      "J/s"
+      Q_nominal_specify	      off
+      Q_nominal_unit	      "J/s"
+      Q_nominal_value	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Position		[871, 145]
+      }
+      Port {
+	PortType		3
+	PortNumber		1
+	Position		[919, 145]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Convective Heat\nTransfer2"
+      SID		      "5"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [575, 416, 615, 444]
+      ZOrder		      -6
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Elements/Convective Heat\nTransfer"
+      SourceType	      "Convective Heat\nTransfer"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.elements.convection"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation."
+      "thermal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":["
+      "]}"
+      ComponentPath	      "foundation.thermal.elements.convection"
+      ComponentVariants	      "foundation.thermal.elements.convection"
+      ComponentVariantNames   "convection"
+      ClassName		      "convection"
+      SchemaVersion	      "1"
+      area		      "0.6*1"
+      area_unit		      "m^2"
+      area_conf		      "compiletime"
+      heat_tr_coeff	      "1/0.13"
+      heat_tr_coeff_unit      "W/(m^2 * K)"
+      heat_tr_coeff_conf      "compiletime"
+      T_specify		      off
+      T_priority	      "None"
+      T			      "0"
+      T_unit		      "K"
+      T_nominal_specify	      off
+      T_nominal_unit	      "K"
+      T_nominal_value	      "1"
+      Q_specify		      off
+      Q_priority	      "None"
+      Q			      "0"
+      Q_unit		      "J/s"
+      Q_nominal_specify	      off
+      Q_nominal_unit	      "J/s"
+      Q_nominal_value	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Position		[571, 430]
+      }
+      Port {
+	PortType		3
+	PortNumber		1
+	Position		[619, 430]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Convective Heat\nTransfer3"
+      SID		      "6"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [875, 416, 915, 444]
+      ZOrder		      -7
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Elements/Convective Heat\nTransfer"
+      SourceType	      "Convective Heat\nTransfer"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.elements.convection"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation."
+      "thermal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":["
+      "]}"
+      ComponentPath	      "foundation.thermal.elements.convection"
+      ComponentVariants	      "foundation.thermal.elements.convection"
+      ComponentVariantNames   "convection"
+      ClassName		      "convection"
+      SchemaVersion	      "1"
+      area		      "0.6*1"
+      area_unit		      "m^2"
+      area_conf		      "compiletime"
+      heat_tr_coeff	      "1/0.04"
+      heat_tr_coeff_unit      "W/(m^2 * K)"
+      heat_tr_coeff_conf      "compiletime"
+      T_specify		      off
+      T_priority	      "None"
+      T			      "0"
+      T_unit		      "K"
+      T_nominal_specify	      off
+      T_nominal_unit	      "K"
+      T_nominal_value	      "1"
+      Q_specify		      off
+      Q_priority	      "None"
+      Q			      "0"
+      Q_unit		      "J/s"
+      Q_nominal_specify	      off
+      Q_nominal_unit	      "J/s"
+      Q_nominal_value	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Position		[871, 430]
+      }
+      Port {
+	PortType		3
+	PortNumber		1
+	Position		[919, 430]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Convective Heat\nTransfer4"
+      SID		      "95"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [575, 711, 615, 739]
+      ZOrder		      -8
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Elements/Convective Heat\nTransfer"
+      SourceType	      "Convective Heat\nTransfer"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.elements.convection"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation."
+      "thermal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":["
+      "]}"
+      ComponentPath	      "foundation.thermal.elements.convection"
+      ComponentVariants	      "foundation.thermal.elements.convection"
+      ComponentVariantNames   "convection"
+      ClassName		      "convection"
+      SchemaVersion	      "1"
+      area		      "0.6*1"
+      area_unit		      "m^2"
+      area_conf		      "compiletime"
+      heat_tr_coeff	      "1/0.13"
+      heat_tr_coeff_unit      "W/(m^2 * K)"
+      heat_tr_coeff_conf      "compiletime"
+      T_specify		      off
+      T_priority	      "None"
+      T			      "0"
+      T_unit		      "K"
+      T_nominal_specify	      off
+      T_nominal_unit	      "K"
+      T_nominal_value	      "1"
+      Q_specify		      off
+      Q_priority	      "None"
+      Q			      "0"
+      Q_unit		      "J/s"
+      Q_nominal_specify	      off
+      Q_nominal_unit	      "J/s"
+      Q_nominal_value	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Position		[571, 725]
+      }
+      Port {
+	PortType		3
+	PortNumber		1
+	Position		[619, 725]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Convective Heat\nTransfer5"
+      SID		      "96"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [875, 711, 915, 739]
+      ZOrder		      -9
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Elements/Convective Heat\nTransfer"
+      SourceType	      "Convective Heat\nTransfer"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.elements.convection"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation."
+      "thermal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":["
+      "]}"
+      ComponentPath	      "foundation.thermal.elements.convection"
+      ComponentVariants	      "foundation.thermal.elements.convection"
+      ComponentVariantNames   "convection"
+      ClassName		      "convection"
+      SchemaVersion	      "1"
+      area		      "0.6*1"
+      area_unit		      "m^2"
+      area_conf		      "compiletime"
+      heat_tr_coeff	      "1/0.04"
+      heat_tr_coeff_unit      "W/(m^2 * K)"
+      heat_tr_coeff_conf      "compiletime"
+      T_specify		      off
+      T_priority	      "None"
+      T			      "0"
+      T_unit		      "K"
+      T_nominal_specify	      off
+      T_nominal_unit	      "K"
+      T_nominal_value	      "1"
+      Q_specify		      off
+      Q_priority	      "None"
+      Q			      "0"
+      Q_unit		      "J/s"
+      Q_nominal_specify	      off
+      Q_nominal_unit	      "J/s"
+      Q_nominal_value	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Position		[871, 725]
+      }
+      Port {
+	PortType		3
+	PortNumber		1
+	Position		[919, 725]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Ideal Temperature\nSensor"
+      SID		      "7"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [295, 126, 325, 159]
+      ZOrder		      -10
+      BlockRotation	      180
+      NamePlacement	      "alternate"
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Sensors/Temperature Sensor"
+      SourceType	      "Temperature Sensor"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.sensors.temperature"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation."
+      "thermal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"},{\"id\":\""
+      "T\",\"label\":\"T\",\"type\":\"output\"}],\"Top\":[]}"
+      ComponentPath	      "foundation.thermal.sensors.temperature"
+      ComponentVariants	      "foundation.thermal.sensors.temperature"
+      ComponentVariantNames   "temperature"
+      ClassName		      "temperature"
+      SchemaVersion	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Rotation		3.1415926535897931
+	Position		[329, 145]
+      }
+      Port {
+	PortType		3
+	PortNumber		1
+	Rotation		3.1415926535897931
+	Position		[291, 150]
+      }
+      Port {
+	PortType		3
+	PortNumber		2
+	Rotation		3.1415926535897931
+	Position		[291, 135]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Ideal Temperature\nSensor1"
+      SID		      "8"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [295, 411, 325, 444]
+      ZOrder		      -11
+      BlockRotation	      180
+      NamePlacement	      "alternate"
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Sensors/Temperature Sensor"
+      SourceType	      "Temperature Sensor"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.sensors.temperature"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation."
+      "thermal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"},{\"id\":\""
+      "T\",\"label\":\"T\",\"type\":\"output\"}],\"Top\":[]}"
+      ComponentPath	      "foundation.thermal.sensors.temperature"
+      ComponentVariants	      "foundation.thermal.sensors.temperature"
+      ComponentVariantNames   "temperature"
+      ClassName		      "temperature"
+      SchemaVersion	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Rotation		3.1415926535897931
+	Position		[329, 430]
+      }
+      Port {
+	PortType		3
+	PortNumber		1
+	Rotation		3.1415926535897931
+	Position		[291, 435]
+      }
+      Port {
+	PortType		3
+	PortNumber		2
+	Rotation		3.1415926535897931
+	Position		[291, 420]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Ideal Temperature\nSensor2"
+      SID		      "97"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [295, 706, 325, 739]
+      ZOrder		      -12
+      BlockRotation	      180
+      NamePlacement	      "alternate"
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Sensors/Temperature Sensor"
+      SourceType	      "Temperature Sensor"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.sensors.temperature"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation."
+      "thermal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"},{\"id\":\""
+      "T\",\"label\":\"T\",\"type\":\"output\"}],\"Top\":[]}"
+      ComponentPath	      "foundation.thermal.sensors.temperature"
+      ComponentVariants	      "foundation.thermal.sensors.temperature"
+      ComponentVariantNames   "temperature"
+      ClassName		      "temperature"
+      SchemaVersion	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Rotation		3.1415926535897931
+	Position		[329, 725]
+      }
+      Port {
+	PortType		3
+	PortNumber		1
+	Rotation		3.1415926535897931
+	Position		[291, 730]
+      }
+      Port {
+	PortType		3
+	PortNumber		2
+	Rotation		3.1415926535897931
+	Position		[291, 715]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Ideal Temperature\nSource"
+      SID		      "9"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [1025, 128, 1065, 157]
+      ZOrder		      -13
+      BlockRotation	      180
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Sources/Controlled\nTemperature Source"
+      SourceType	      "Controlled\nTemperature Source"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.sources.controlled_temperature"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation."
+      "thermal.thermal\"}],\"Right\":[{\"id\":\"S\",\"label\":\"S\",\"type\":\"input\"},{\"id\":\"A\",\"label\":\"A\",\""
+      "type\":\"foundation.thermal.thermal\"}],\"Top\":[]}"
+      ComponentPath	      "foundation.thermal.sources.controlled_temperature"
+      ComponentVariants	      "foundation.thermal.sources.controlled_temperature"
+      ComponentVariantNames   "controlled_temperature"
+      ClassName		      "controlled_temperature"
+      SchemaVersion	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Position		[1021, 145]
+      }
+      Port {
+	PortType		3
+	PortNumber		1
+	Position		[1069, 150]
+      }
+      Port {
+	PortType		3
+	PortNumber		2
+	Position		[1069, 135]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Ideal Temperature\nSource1"
+      SID		      "10"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [1025, 413, 1065, 442]
+      ZOrder		      -14
+      BlockRotation	      180
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Sources/Controlled\nTemperature Source"
+      SourceType	      "Controlled\nTemperature Source"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.sources.controlled_temperature"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation."
+      "thermal.thermal\"}],\"Right\":[{\"id\":\"S\",\"label\":\"S\",\"type\":\"input\"},{\"id\":\"A\",\"label\":\"A\",\""
+      "type\":\"foundation.thermal.thermal\"}],\"Top\":[]}"
+      ComponentPath	      "foundation.thermal.sources.controlled_temperature"
+      ComponentVariants	      "foundation.thermal.sources.controlled_temperature"
+      ComponentVariantNames   "controlled_temperature"
+      ClassName		      "controlled_temperature"
+      SchemaVersion	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Position		[1021, 430]
+      }
+      Port {
+	PortType		3
+	PortNumber		1
+	Position		[1069, 435]
+      }
+      Port {
+	PortType		3
+	PortNumber		2
+	Position		[1069, 420]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Ideal Temperature\nSource2"
+      SID		      "98"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [1025, 708, 1065, 737]
+      ZOrder		      -15
+      BlockRotation	      180
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Sources/Controlled\nTemperature Source"
+      SourceType	      "Controlled\nTemperature Source"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.sources.controlled_temperature"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation."
+      "thermal.thermal\"}],\"Right\":[{\"id\":\"S\",\"label\":\"S\",\"type\":\"input\"},{\"id\":\"A\",\"label\":\"A\",\""
+      "type\":\"foundation.thermal.thermal\"}],\"Top\":[]}"
+      ComponentPath	      "foundation.thermal.sources.controlled_temperature"
+      ComponentVariants	      "foundation.thermal.sources.controlled_temperature"
+      ComponentVariantNames   "controlled_temperature"
+      ClassName		      "controlled_temperature"
+      SchemaVersion	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Position		[1021, 725]
+      }
+      Port {
+	PortType		3
+	PortNumber		1
+	Position		[1069, 730]
+      }
+      Port {
+	PortType		3
+	PortNumber		2
+	Position		[1069, 715]
+      }
+    }
+    Block {
+      BlockType		      Mux
+      Name		      "Mux"
+      SID		      "11"
+      Ports		      [3, 1]
+      Position		      [125, 401, 130, 439]
+      ZOrder		      -16
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      Inputs		      "3"
+      DisplayOption	      "bar"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PS-Simulink\nConverter"
+      SID		      "12"
+      Ports		      [0, 1, 0, 0, 0, 1]
+      Position		      [205, 120, 235, 150]
+      ZOrder		      -17
+      BlockMirror	      on
+      ShowName		      off
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/PS-Simulink\nConverter"
+      SourceType	      "PS-Simulink\nConverter"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      ContentPreviewEnabled   off
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "ps_output"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      PseudoPeriodic	      off
+      Frequencies	      "[]"
+      Unit		      "degC"
+      AffineConversion	      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PS-Simulink\nConverter1"
+      SID		      "13"
+      Ports		      [0, 1, 0, 0, 0, 1]
+      Position		      [205, 405, 235, 435]
+      ZOrder		      -18
+      BlockMirror	      on
+      ShowName		      off
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/PS-Simulink\nConverter"
+      SourceType	      "PS-Simulink\nConverter"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      ContentPreviewEnabled   off
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "ps_output"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      PseudoPeriodic	      off
+      Frequencies	      "[]"
+      Unit		      "degC"
+      AffineConversion	      on
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PS-Simulink\nConverter2"
+      SID		      "99"
+      Ports		      [0, 1, 0, 0, 0, 1]
+      Position		      [205, 700, 235, 730]
+      ZOrder		      -19
+      BlockMirror	      on
+      ShowName		      off
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/PS-Simulink\nConverter"
+      SourceType	      "PS-Simulink\nConverter"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      ContentPreviewEnabled   off
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "ps_output"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      PseudoPeriodic	      off
+      Frequencies	      "[]"
+      Unit		      "degC"
+      AffineConversion	      on
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "Scope"
+      SID		      "117"
+      Ports		      [1]
+      Position		      [50, 404, 80, 436]
+      ZOrder		      -16
+      BlockMirror	      on
+      ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extm"
+      "gr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('S"
+      "ources','WiredSimulink',true,'DataLoggingSaveFormat','StructureWithTime','DataLoggingLimitDataPoints',true,'Data"
+      "LoggingDecimation','1','DataLoggingDecimateData',true),extmgr.Configuration('Visuals','Time Domain',true,'Serial"
+      "izedDisplays',{struct('MinYLimReal','8.75059','MaxYLimReal','21.24993','YLabelReal','','MinYLimMag','8.75059','M"
+      "axYLimMag','21.24993','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0"
+      "],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0"
+      ".0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0"
+      ".0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.6509803921"
+      "56863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',3,'LineName"
+      "s',{{'PS-Simulink Converter','PS-Simulink Converter1','PS-Simulink Converter2'}},'ShowContent',true,'Placement',"
+      "1)},'DisplayPropertyDefaults',struct('MinYLimReal','8.75059','MaxYLimReal','21.24993','YLabelReal','','MinYLimMa"
+      "g','8.75059','MaxYLimMag','21.24993','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'Ax"
+      "esColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.066"
+      "6666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.83"
+      "1372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.07450980392156"
+      "86 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLin"
+      "es',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1)),extmgr.Configuration('Tools','Plot Navigation',true)"
+      ",extmgr.Configuration('Tools','Measurements',true,'Version','2019b')),'Version','2019b','Location',[428 71 1279 "
+      "583])"
+      NumInputPorts	      "1"
+      Floating		      off
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Simulink-PS\nConverter"
+      SID		      "15"
+      Ports		      [1, 0, 0, 0, 0, 0, 1]
+      Position		      [1195, 150, 1225, 180]
+      ZOrder		      -21
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/Simulink-PS\nConverter"
+      SourceType	      "Simulink-PS\nConverter"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      ContentPreviewEnabled   off
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "ps_input"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      PseudoPeriodic	      off
+      Frequencies	      "[]"
+      NoiseDistribution	      "none"
+      NoiseParameters	      "[]"
+      Unit		      "degC"
+      AffineConversion	      on
+      FilteringAndDerivatives "zero"
+      SimscapeFilterOrder     "1"
+      InputFilterTimeConstant ".001"
+      UdotUserProvided	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Simulink-PS\nConverter1"
+      SID		      "16"
+      Ports		      [1, 0, 0, 0, 0, 0, 1]
+      Position		      [1195, 435, 1225, 465]
+      ZOrder		      -22
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/Simulink-PS\nConverter"
+      SourceType	      "Simulink-PS\nConverter"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      ContentPreviewEnabled   off
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "ps_input"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      PseudoPeriodic	      off
+      Frequencies	      "[]"
+      NoiseDistribution	      "none"
+      NoiseParameters	      "[]"
+      Unit		      "degC"
+      AffineConversion	      on
+      FilteringAndDerivatives "zero"
+      SimscapeFilterOrder     "1"
+      InputFilterTimeConstant ".001"
+      UdotUserProvided	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Simulink-PS\nConverter2"
+      SID		      "100"
+      Ports		      [1, 0, 0, 0, 0, 0, 1]
+      Position		      [1195, 730, 1225, 760]
+      ZOrder		      -23
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/Simulink-PS\nConverter"
+      SourceType	      "Simulink-PS\nConverter"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      ContentPreviewEnabled   off
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "ps_input"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      PseudoPeriodic	      off
+      Frequencies	      "[]"
+      NoiseDistribution	      "none"
+      NoiseParameters	      "[]"
+      Unit		      "degC"
+      AffineConversion	      on
+      FilteringAndDerivatives "zero"
+      SimscapeFilterOrder     "1"
+      InputFilterTimeConstant ".001"
+      UdotUserProvided	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Solver\nConfiguration"
+      SID		      "17"
+      Ports		      [0, 0, 0, 0, 0, 0, 1]
+      Position		      [405, 44, 450, 76]
+      ZOrder		      -24
+      BlockMirror	      on
+      ShowName		      off
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/Solver\nConfiguration"
+      SourceType	      "Solver\nConfiguration"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      ContentPreviewEnabled   off
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "solver"
+      LeftPortType	      "input"
+      RightPortType	      "generic"
+      Tones		      "[]"
+      Harmonics		      "[]"
+      SimulateNoise	      off
+      Profile		      off
+      UseLocalSampling	      off
+      EnableSwitchedLinearOptims on
+      FrequencyDomain	      off
+      UseCCode		      off
+      RelTol		      "0.001"
+      AbsTol		      "1e-06"
+      MinStep		      "1e-09"
+      ToWorkspace	      off
+      RevertToSquareIcSolve   off
+      NumHomotopyIterations   "100"
+      PhasorMode	      off
+      PhasorModeNumHarmonics  "1"
+      DoDC		      off
+      ResidualTolerance	      "1e-9"
+      UseLocalSolver	      off
+      LocalSolverChoice	      "NE_BACKWARD_EULER_ADVANCER"
+      LocalSolverSampleTime   ".001"
+      DoFixedCost	      off
+      MaxNonlinIter	      "3"
+      MaxModeIter	      "2"
+      LinearAlgebra	      "Sparse"
+      EquationFormulation     "NE_TIME_EF"
+      DelaysMemoryBudget      "1024"
+      AutomaticFiltering      on
+      FilteringTimeConstant   "0.001"
+      PartitionStorageMethod  "AS_NEEDED"
+      PartitionMemoryBudget   "1024"
+      PartitionMethod	      "FAST"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Solver\nConfiguration1"
+      SID		      "18"
+      Ports		      [0, 0, 0, 0, 0, 0, 1]
+      Position		      [405, 329, 450, 361]
+      ZOrder		      -25
+      BlockMirror	      on
+      ShowName		      off
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/Solver\nConfiguration"
+      SourceType	      "Solver\nConfiguration"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      ContentPreviewEnabled   off
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "solver"
+      LeftPortType	      "input"
+      RightPortType	      "generic"
+      Tones		      "[]"
+      Harmonics		      "[]"
+      SimulateNoise	      off
+      Profile		      off
+      UseLocalSampling	      off
+      EnableSwitchedLinearOptims on
+      FrequencyDomain	      off
+      UseCCode		      off
+      RelTol		      "0.001"
+      AbsTol		      "1e-06"
+      MinStep		      "1e-09"
+      ToWorkspace	      off
+      RevertToSquareIcSolve   off
+      NumHomotopyIterations   "100"
+      PhasorMode	      off
+      PhasorModeNumHarmonics  "1"
+      DoDC		      off
+      ResidualTolerance	      "1e-9"
+      UseLocalSolver	      off
+      LocalSolverChoice	      "NE_BACKWARD_EULER_ADVANCER"
+      LocalSolverSampleTime   ".001"
+      DoFixedCost	      off
+      MaxNonlinIter	      "3"
+      MaxModeIter	      "2"
+      LinearAlgebra	      "Sparse"
+      EquationFormulation     "NE_TIME_EF"
+      DelaysMemoryBudget      "1024"
+      AutomaticFiltering      on
+      FilteringTimeConstant   "0.001"
+      PartitionStorageMethod  "AS_NEEDED"
+      PartitionMemoryBudget   "1024"
+      PartitionMethod	      "FAST"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Solver\nConfiguration2"
+      SID		      "101"
+      Ports		      [0, 0, 0, 0, 0, 0, 1]
+      Position		      [405, 624, 450, 656]
+      ZOrder		      -26
+      BlockMirror	      on
+      ShowName		      off
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/Solver\nConfiguration"
+      SourceType	      "Solver\nConfiguration"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      ContentPreviewEnabled   off
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "solver"
+      LeftPortType	      "input"
+      RightPortType	      "generic"
+      Tones		      "[]"
+      Harmonics		      "[]"
+      SimulateNoise	      off
+      Profile		      off
+      UseLocalSampling	      off
+      EnableSwitchedLinearOptims on
+      FrequencyDomain	      off
+      UseCCode		      off
+      RelTol		      "0.001"
+      AbsTol		      "1e-06"
+      MinStep		      "1e-09"
+      ToWorkspace	      off
+      RevertToSquareIcSolve   off
+      NumHomotopyIterations   "100"
+      PhasorMode	      off
+      PhasorModeNumHarmonics  "1"
+      DoDC		      off
+      ResidualTolerance	      "1e-9"
+      UseLocalSolver	      off
+      LocalSolverChoice	      "NE_BACKWARD_EULER_ADVANCER"
+      LocalSolverSampleTime   ".001"
+      DoFixedCost	      off
+      MaxNonlinIter	      "3"
+      MaxModeIter	      "2"
+      LinearAlgebra	      "Sparse"
+      EquationFormulation     "NE_TIME_EF"
+      DelaysMemoryBudget      "1024"
+      AutomaticFiltering      on
+      FilteringTimeConstant   "0.001"
+      PartitionStorageMethod  "AS_NEEDED"
+      PartitionMemoryBudget   "1024"
+      PartitionMethod	      "FAST"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Thermal Reference"
+      SID		      "19"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [1150, 125, 1170, 145]
+      ZOrder		      -27
+      BlockRotation	      180
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Elements/Thermal Reference"
+      SourceType	      "Thermal Reference"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.elements.reference"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"H\",\"label\":\"\",\"type\":\"foundation.t"
+      "hermal.thermal\"}],\"Right\":[],\"Top\":[]}"
+      ComponentPath	      "foundation.thermal.elements.reference"
+      ComponentVariants	      "foundation.thermal.elements.reference"
+      ComponentVariantNames   "reference"
+      ClassName		      "reference"
+      SchemaVersion	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Position		[1146, 135]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Thermal Reference1"
+      SID		      "20"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [255, 180, 275, 200]
+      ZOrder		      -28
+      BlockRotation	      270
+      BlockMirror	      on
+      ShowName		      off
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Elements/Thermal Reference"
+      SourceType	      "Thermal Reference"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.elements.reference"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"H\",\"label\":\"\",\"type\":\"foundation.t"
+      "hermal.thermal\"}],\"Right\":[],\"Top\":[]}"
+      ComponentPath	      "foundation.thermal.elements.reference"
+      ComponentVariants	      "foundation.thermal.elements.reference"
+      ComponentVariantNames   "reference"
+      ClassName		      "reference"
+      SchemaVersion	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Rotation		-1.5707963267948966
+	Position		[265, 176]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Thermal Reference2"
+      SID		      "21"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [1150, 410, 1170, 430]
+      ZOrder		      -29
+      BlockRotation	      180
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Elements/Thermal Reference"
+      SourceType	      "Thermal Reference"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.elements.reference"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"H\",\"label\":\"\",\"type\":\"foundation.t"
+      "hermal.thermal\"}],\"Right\":[],\"Top\":[]}"
+      ComponentPath	      "foundation.thermal.elements.reference"
+      ComponentVariants	      "foundation.thermal.elements.reference"
+      ComponentVariantNames   "reference"
+      ClassName		      "reference"
+      SchemaVersion	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Position		[1146, 420]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Thermal Reference3"
+      SID		      "22"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [255, 465, 275, 485]
+      ZOrder		      -30
+      BlockRotation	      270
+      BlockMirror	      on
+      ShowName		      off
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Elements/Thermal Reference"
+      SourceType	      "Thermal Reference"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.elements.reference"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"H\",\"label\":\"\",\"type\":\"foundation.t"
+      "hermal.thermal\"}],\"Right\":[],\"Top\":[]}"
+      ComponentPath	      "foundation.thermal.elements.reference"
+      ComponentVariants	      "foundation.thermal.elements.reference"
+      ComponentVariantNames   "reference"
+      ClassName		      "reference"
+      SchemaVersion	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Rotation		-1.5707963267948966
+	Position		[265, 461]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Thermal Reference4"
+      SID		      "102"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [1150, 705, 1170, 725]
+      ZOrder		      -31
+      BlockRotation	      180
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      ShowName		      off
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Elements/Thermal Reference"
+      SourceType	      "Thermal Reference"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.elements.reference"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"H\",\"label\":\"\",\"type\":\"foundation.t"
+      "hermal.thermal\"}],\"Right\":[],\"Top\":[]}"
+      ComponentPath	      "foundation.thermal.elements.reference"
+      ComponentVariants	      "foundation.thermal.elements.reference"
+      ComponentVariantNames   "reference"
+      ClassName		      "reference"
+      SchemaVersion	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Position		[1146, 715]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Thermal Reference5"
+      SID		      "103"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [255, 760, 275, 780]
+      ZOrder		      -32
+      BlockRotation	      270
+      BlockMirror	      on
+      ShowName		      off
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Elements/Thermal Reference"
+      SourceType	      "Thermal Reference"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.elements.reference"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"H\",\"label\":\"\",\"type\":\"foundation.t"
+      "hermal.thermal\"}],\"Right\":[],\"Top\":[]}"
+      ComponentPath	      "foundation.thermal.elements.reference"
+      ComponentVariants	      "foundation.thermal.elements.reference"
+      ComponentVariantNames   "reference"
+      ClassName		      "reference"
+      SchemaVersion	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Rotation		-1.5707963267948966
+	Position		[265, 756]
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "double_vitrage"
+      SID		      "23"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [700, 398, 790, 462]
+      ZOrder		      -33
+      RequestExecContextInheritance off
+      System {
+	Name			"double_vitrage"
+	Location		[-8, -8, 1928, 1208]
+	Open			on
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"194"
+	SimulinkSubDomain	"Simulink"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Conductive Heat\nTransfer"
+	  SID			  "24"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [80, 26, 120, 54]
+	  ZOrder		  -1
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+	  SourceType		  "Conductive Heat\nTransfer"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.conduction"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.the"
+	  "rmal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.conduction"
+	  ComponentVariants	  "foundation.thermal.elements.conduction"
+	  ComponentVariantNames	  "conduction"
+	  ClassName		  "conduction"
+	  SchemaVersion		  "1"
+	  area			  "0.6*1"
+	  area_unit		  "m^2"
+	  area_conf		  "compiletime"
+	  thickness		  "2"
+	  thickness_unit	  "mm"
+	  thickness_conf	  "compiletime"
+	  th_cond		  "1.2"
+	  th_cond_unit		  "W/(m*K)"
+	  th_cond_conf		  "compiletime"
+	  T_specify		  off
+	  T_priority		  "None"
+	  T			  "0"
+	  T_unit		  "K"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Position		    [76, 40]
+	  }
+	  Port {
+	    PortType		    3
+	    PortNumber		    1
+	    Position		    [124, 40]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Conductive Heat\nTransfer1"
+	  SID			  "25"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [235, 26, 275, 54]
+	  ZOrder		  -2
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+	  SourceType		  "Conductive Heat\nTransfer"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.conduction"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.the"
+	  "rmal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.conduction"
+	  ComponentVariants	  "foundation.thermal.elements.conduction"
+	  ComponentVariantNames	  "conduction"
+	  ClassName		  "conduction"
+	  SchemaVersion		  "1"
+	  area			  "0.6*1"
+	  area_unit		  "m^2"
+	  area_conf		  "compiletime"
+	  thickness		  "2"
+	  thickness_unit	  "mm"
+	  thickness_conf	  "compiletime"
+	  th_cond		  "1.2"
+	  th_cond_unit		  "W/(m*K)"
+	  th_cond_conf		  "compiletime"
+	  T_specify		  off
+	  T_priority		  "None"
+	  T			  "0"
+	  T_unit		  "K"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Position		    [231, 40]
+	  }
+	  Port {
+	    PortType		    3
+	    PortNumber		    1
+	    Position		    [279, 40]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Conductive Heat\nTransfer2"
+	  SID			  "26"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [520, 26, 560, 54]
+	  ZOrder		  -3
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+	  SourceType		  "Conductive Heat\nTransfer"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.conduction"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.the"
+	  "rmal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.conduction"
+	  ComponentVariants	  "foundation.thermal.elements.conduction"
+	  ComponentVariantNames	  "conduction"
+	  ClassName		  "conduction"
+	  SchemaVersion		  "1"
+	  area			  "0.6*1"
+	  area_unit		  "m^2"
+	  area_conf		  "compiletime"
+	  thickness		  "2"
+	  thickness_unit	  "mm"
+	  thickness_conf	  "compiletime"
+	  th_cond		  "1.2"
+	  th_cond_unit		  "W/(m*K)"
+	  th_cond_conf		  "compiletime"
+	  T_specify		  off
+	  T_priority		  "None"
+	  T			  "0"
+	  T_unit		  "K"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Position		    [516, 40]
+	  }
+	  Port {
+	    PortType		    3
+	    PortNumber		    1
+	    Position		    [564, 40]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Conductive Heat\nTransfer3"
+	  SID			  "27"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [660, 26, 700, 54]
+	  ZOrder		  -4
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+	  SourceType		  "Conductive Heat\nTransfer"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.conduction"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.the"
+	  "rmal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.conduction"
+	  ComponentVariants	  "foundation.thermal.elements.conduction"
+	  ComponentVariantNames	  "conduction"
+	  ClassName		  "conduction"
+	  SchemaVersion		  "1"
+	  area			  "0.6*1"
+	  area_unit		  "m^2"
+	  area_conf		  "compiletime"
+	  thickness		  "2"
+	  thickness_unit	  "mm"
+	  thickness_conf	  "compiletime"
+	  th_cond		  "1.2"
+	  th_cond_unit		  "W/(m*K)"
+	  th_cond_conf		  "compiletime"
+	  T_specify		  off
+	  T_priority		  "None"
+	  T			  "0"
+	  T_unit		  "K"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Position		    [656, 40]
+	  }
+	  Port {
+	    PortType		    3
+	    PortNumber		    1
+	    Position		    [704, 40]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Conductive Heat\nTransfer4"
+	  SID			  "28"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [320, 26, 360, 54]
+	  ZOrder		  -5
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+	  SourceType		  "Conductive Heat\nTransfer"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.conduction"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.the"
+	  "rmal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.conduction"
+	  ComponentVariants	  "foundation.thermal.elements.conduction"
+	  ComponentVariantNames	  "conduction"
+	  ClassName		  "conduction"
+	  SchemaVersion		  "1"
+	  area			  "0.6*1"
+	  area_unit		  "m^2"
+	  area_conf		  "compiletime"
+	  thickness		  "6"
+	  thickness_unit	  "mm"
+	  thickness_conf	  "compiletime"
+	  th_cond		  "0.0262"
+	  th_cond_unit		  "W/(m*K)"
+	  th_cond_conf		  "compiletime"
+	  T_specify		  off
+	  T_priority		  "None"
+	  T			  "0"
+	  T_unit		  "K"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Position		    [316, 40]
+	  }
+	  Port {
+	    PortType		    3
+	    PortNumber		    1
+	    Position		    [364, 40]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Conductive Heat\nTransfer5"
+	  SID			  "29"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [415, 26, 455, 54]
+	  ZOrder		  -6
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+	  SourceType		  "Conductive Heat\nTransfer"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.conduction"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.the"
+	  "rmal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.conduction"
+	  ComponentVariants	  "foundation.thermal.elements.conduction"
+	  ComponentVariantNames	  "conduction"
+	  ClassName		  "conduction"
+	  SchemaVersion		  "1"
+	  area			  "0.6*1"
+	  area_unit		  "m^2"
+	  area_conf		  "compiletime"
+	  thickness		  "6"
+	  thickness_unit	  "mm"
+	  thickness_conf	  "compiletime"
+	  th_cond		  "0.0262"
+	  th_cond_unit		  "W/(m*K)"
+	  th_cond_conf		  "compiletime"
+	  T_specify		  off
+	  T_priority		  "None"
+	  T			  "0"
+	  T_unit		  "K"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Position		    [411, 40]
+	  }
+	  Port {
+	    PortType		    3
+	    PortNumber		    1
+	    Position		    [459, 40]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "air"
+	  SID			  "30"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [370, 90, 410, 130]
+	  ZOrder		  -7
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+	  SourceType		  "Thermal Mass"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.mass"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"M\",\"label\":\"\",\"type\":\"foundation.ther"
+	  "mal.thermal\"}],\"Right\":[],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.mass"
+	  ComponentVariants	  "foundation.thermal.elements.mass"
+	  ComponentVariantNames	  "mass"
+	  ClassName		  "mass"
+	  SchemaVersion		  "1"
+	  mass			  "0.6*1*1.204"
+	  mass_unit		  "kg"
+	  mass_conf		  "compiletime"
+	  sp_heat		  "1004"
+	  sp_heat_unit		  "J/kg/K"
+	  sp_heat_conf		  "compiletime"
+	  T_specify		  on
+	  T_priority		  "High"
+	  T			  "20"
+	  T_unit		  "degC"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Rotation		    -1.5707963267948966
+	    Position		    [390, 86]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "window"
+	  SID			  "31"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [160, 90, 200, 130]
+	  ZOrder		  -8
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+	  SourceType		  "Thermal Mass"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.mass"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"M\",\"label\":\"\",\"type\":\"foundation.ther"
+	  "mal.thermal\"}],\"Right\":[],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.mass"
+	  ComponentVariants	  "foundation.thermal.elements.mass"
+	  ComponentVariantNames	  "mass"
+	  ClassName		  "mass"
+	  SchemaVersion		  "1"
+	  mass			  "0.6*1*4e-3*2530"
+	  mass_unit		  "kg"
+	  mass_conf		  "compiletime"
+	  sp_heat		  "720"
+	  sp_heat_unit		  "J/kg/K"
+	  sp_heat_conf		  "compiletime"
+	  T_specify		  on
+	  T_priority		  "High"
+	  T			  "20"
+	  T_unit		  "degC"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Rotation		    -1.5707963267948966
+	    Position		    [180, 86]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "window1"
+	  SID			  "32"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [585, 90, 625, 130]
+	  ZOrder		  -9
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+	  SourceType		  "Thermal Mass"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.mass"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"M\",\"label\":\"\",\"type\":\"foundation.ther"
+	  "mal.thermal\"}],\"Right\":[],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.mass"
+	  ComponentVariants	  "foundation.thermal.elements.mass"
+	  ComponentVariantNames	  "mass"
+	  ClassName		  "mass"
+	  SchemaVersion		  "1"
+	  mass			  "0.6*1*4e-3*2530"
+	  mass_unit		  "kg"
+	  mass_conf		  "compiletime"
+	  sp_heat		  "720"
+	  sp_heat_unit		  "J/kg/K"
+	  sp_heat_conf		  "compiletime"
+	  T_specify		  on
+	  T_priority		  "High"
+	  T			  "20"
+	  T_unit		  "degC"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Rotation		    -1.5707963267948966
+	    Position		    [605, 86]
+	  }
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn1"
+	  SID			  "33"
+	  Position		  [25, 33, 55, 47]
+	  ZOrder		  -10
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn2"
+	  SID			  "34"
+	  Position		  [745, 33, 775, 47]
+	  ZOrder		  -11
+	  BlockMirror		  on
+	  Port			  "2"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  1
+	  SrcBlock		  "Conn1"
+	  SrcPort		  RConn1
+	  DstBlock		  "Conductive Heat\nTransfer"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  2
+	  SrcBlock		  "window"
+	  SrcPort		  LConn1
+	  Points		  [0, -35]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Conductive Heat\nTransfer"
+	    DstPort		    RConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Conductive Heat\nTransfer1"
+	    DstPort		    LConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  5
+	  SrcBlock		  "window1"
+	  SrcPort		  LConn1
+	  Points		  [0, -35]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Conductive Heat\nTransfer3"
+	    DstPort		    LConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Conductive Heat\nTransfer2"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  8
+	  SrcBlock		  "Conductive Heat\nTransfer3"
+	  SrcPort		  RConn1
+	  DstBlock		  "Conn2"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  9
+	  SrcBlock		  "Conductive Heat\nTransfer4"
+	  SrcPort		  LConn1
+	  DstBlock		  "Conductive Heat\nTransfer1"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  10
+	  SrcBlock		  "Conductive Heat\nTransfer5"
+	  SrcPort		  RConn1
+	  DstBlock		  "Conductive Heat\nTransfer2"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  11
+	  SrcBlock		  "air"
+	  SrcPort		  LConn1
+	  Points		  [0, -35]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Conductive Heat\nTransfer4"
+	    DstPort		    RConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Conductive Heat\nTransfer5"
+	    DstPort		    LConn1
+	  }
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "double_vitrage gaz argon"
+      SID		      "104"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [700, 693, 790, 757]
+      ZOrder		      -34
+      RequestExecContextInheritance off
+      System {
+	Name			"double_vitrage gaz argon"
+	Location		[-8, -8, 1928, 1208]
+	Open			on
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"194"
+	SimulinkSubDomain	"Simulink"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Conductive Heat\nTransfer"
+	  SID			  "105"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [80, 26, 120, 54]
+	  ZOrder		  -1
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+	  SourceType		  "Conductive Heat\nTransfer"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.conduction"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.the"
+	  "rmal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.conduction"
+	  ComponentVariants	  "foundation.thermal.elements.conduction"
+	  ComponentVariantNames	  "conduction"
+	  ClassName		  "conduction"
+	  SchemaVersion		  "1"
+	  area			  "0.6*1"
+	  area_unit		  "m^2"
+	  area_conf		  "compiletime"
+	  thickness		  "2"
+	  thickness_unit	  "mm"
+	  thickness_conf	  "compiletime"
+	  th_cond		  "1.2"
+	  th_cond_unit		  "W/(m*K)"
+	  th_cond_conf		  "compiletime"
+	  T_specify		  off
+	  T_priority		  "None"
+	  T			  "0"
+	  T_unit		  "K"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Position		    [76, 40]
+	  }
+	  Port {
+	    PortType		    3
+	    PortNumber		    1
+	    Position		    [124, 40]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Conductive Heat\nTransfer1"
+	  SID			  "106"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [235, 26, 275, 54]
+	  ZOrder		  -2
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+	  SourceType		  "Conductive Heat\nTransfer"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.conduction"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.the"
+	  "rmal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.conduction"
+	  ComponentVariants	  "foundation.thermal.elements.conduction"
+	  ComponentVariantNames	  "conduction"
+	  ClassName		  "conduction"
+	  SchemaVersion		  "1"
+	  area			  "0.6*1"
+	  area_unit		  "m^2"
+	  area_conf		  "compiletime"
+	  thickness		  "2"
+	  thickness_unit	  "mm"
+	  thickness_conf	  "compiletime"
+	  th_cond		  "1.2"
+	  th_cond_unit		  "W/(m*K)"
+	  th_cond_conf		  "compiletime"
+	  T_specify		  off
+	  T_priority		  "None"
+	  T			  "0"
+	  T_unit		  "K"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Position		    [231, 40]
+	  }
+	  Port {
+	    PortType		    3
+	    PortNumber		    1
+	    Position		    [279, 40]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Conductive Heat\nTransfer2"
+	  SID			  "107"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [520, 26, 560, 54]
+	  ZOrder		  -3
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+	  SourceType		  "Conductive Heat\nTransfer"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.conduction"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.the"
+	  "rmal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.conduction"
+	  ComponentVariants	  "foundation.thermal.elements.conduction"
+	  ComponentVariantNames	  "conduction"
+	  ClassName		  "conduction"
+	  SchemaVersion		  "1"
+	  area			  "0.6*1"
+	  area_unit		  "m^2"
+	  area_conf		  "compiletime"
+	  thickness		  "2"
+	  thickness_unit	  "mm"
+	  thickness_conf	  "compiletime"
+	  th_cond		  "1.2"
+	  th_cond_unit		  "W/(m*K)"
+	  th_cond_conf		  "compiletime"
+	  T_specify		  off
+	  T_priority		  "None"
+	  T			  "0"
+	  T_unit		  "K"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Position		    [516, 40]
+	  }
+	  Port {
+	    PortType		    3
+	    PortNumber		    1
+	    Position		    [564, 40]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Conductive Heat\nTransfer3"
+	  SID			  "108"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [660, 26, 700, 54]
+	  ZOrder		  -4
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+	  SourceType		  "Conductive Heat\nTransfer"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.conduction"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.the"
+	  "rmal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.conduction"
+	  ComponentVariants	  "foundation.thermal.elements.conduction"
+	  ComponentVariantNames	  "conduction"
+	  ClassName		  "conduction"
+	  SchemaVersion		  "1"
+	  area			  "0.6*1"
+	  area_unit		  "m^2"
+	  area_conf		  "compiletime"
+	  thickness		  "2"
+	  thickness_unit	  "mm"
+	  thickness_conf	  "compiletime"
+	  th_cond		  "1.2"
+	  th_cond_unit		  "W/(m*K)"
+	  th_cond_conf		  "compiletime"
+	  T_specify		  off
+	  T_priority		  "None"
+	  T			  "0"
+	  T_unit		  "K"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Position		    [656, 40]
+	  }
+	  Port {
+	    PortType		    3
+	    PortNumber		    1
+	    Position		    [704, 40]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Conductive Heat\nTransfer4"
+	  SID			  "109"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [320, 26, 360, 54]
+	  ZOrder		  -5
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+	  SourceType		  "Conductive Heat\nTransfer"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.conduction"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.the"
+	  "rmal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.conduction"
+	  ComponentVariants	  "foundation.thermal.elements.conduction"
+	  ComponentVariantNames	  "conduction"
+	  ClassName		  "conduction"
+	  SchemaVersion		  "1"
+	  area			  "0.6*1"
+	  area_unit		  "m^2"
+	  area_conf		  "compiletime"
+	  thickness		  "6"
+	  thickness_unit	  "mm"
+	  thickness_conf	  "compiletime"
+	  th_cond		  "0.01772 "
+	  th_cond_unit		  "W/(m*K)"
+	  th_cond_conf		  "compiletime"
+	  T_specify		  off
+	  T_priority		  "None"
+	  T			  "0"
+	  T_unit		  "K"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Position		    [316, 40]
+	  }
+	  Port {
+	    PortType		    3
+	    PortNumber		    1
+	    Position		    [364, 40]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Conductive Heat\nTransfer5"
+	  SID			  "110"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [415, 26, 455, 54]
+	  ZOrder		  -6
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+	  SourceType		  "Conductive Heat\nTransfer"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.conduction"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.the"
+	  "rmal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.conduction"
+	  ComponentVariants	  "foundation.thermal.elements.conduction"
+	  ComponentVariantNames	  "conduction"
+	  ClassName		  "conduction"
+	  SchemaVersion		  "1"
+	  area			  "0.6*1"
+	  area_unit		  "m^2"
+	  area_conf		  "compiletime"
+	  thickness		  "6"
+	  thickness_unit	  "mm"
+	  thickness_conf	  "compiletime"
+	  th_cond		  "0.01772 "
+	  th_cond_unit		  "W/(m*K)"
+	  th_cond_conf		  "compiletime"
+	  T_specify		  off
+	  T_priority		  "None"
+	  T			  "0"
+	  T_unit		  "K"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Position		    [411, 40]
+	  }
+	  Port {
+	    PortType		    3
+	    PortNumber		    1
+	    Position		    [459, 40]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "argon"
+	  SID			  "111"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [370, 90, 410, 130]
+	  ZOrder		  -7
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+	  SourceType		  "Thermal Mass"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.mass"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"M\",\"label\":\"\",\"type\":\"foundation.ther"
+	  "mal.thermal\"}],\"Right\":[],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.mass"
+	  ComponentVariants	  "foundation.thermal.elements.mass"
+	  ComponentVariantNames	  "mass"
+	  ClassName		  "mass"
+	  SchemaVersion		  "1"
+	  mass			  "0.6*1*1.783"
+	  mass_unit		  "kg"
+	  mass_conf		  "compiletime"
+	  sp_heat		  "320"
+	  sp_heat_unit		  "J/kg/K"
+	  sp_heat_conf		  "compiletime"
+	  T_specify		  on
+	  T_priority		  "High"
+	  T			  "20"
+	  T_unit		  "degC"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Rotation		    -1.5707963267948966
+	    Position		    [390, 86]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "window"
+	  SID			  "112"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [160, 90, 200, 130]
+	  ZOrder		  -8
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+	  SourceType		  "Thermal Mass"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.mass"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"M\",\"label\":\"\",\"type\":\"foundation.ther"
+	  "mal.thermal\"}],\"Right\":[],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.mass"
+	  ComponentVariants	  "foundation.thermal.elements.mass"
+	  ComponentVariantNames	  "mass"
+	  ClassName		  "mass"
+	  SchemaVersion		  "1"
+	  mass			  "0.6*1*4e-3*2530"
+	  mass_unit		  "kg"
+	  mass_conf		  "compiletime"
+	  sp_heat		  "720"
+	  sp_heat_unit		  "J/kg/K"
+	  sp_heat_conf		  "compiletime"
+	  T_specify		  on
+	  T_priority		  "High"
+	  T			  "20"
+	  T_unit		  "degC"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Rotation		    -1.5707963267948966
+	    Position		    [180, 86]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "window1"
+	  SID			  "113"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [585, 90, 625, 130]
+	  ZOrder		  -9
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+	  SourceType		  "Thermal Mass"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.mass"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"M\",\"label\":\"\",\"type\":\"foundation.ther"
+	  "mal.thermal\"}],\"Right\":[],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.mass"
+	  ComponentVariants	  "foundation.thermal.elements.mass"
+	  ComponentVariantNames	  "mass"
+	  ClassName		  "mass"
+	  SchemaVersion		  "1"
+	  mass			  "0.6*1*4e-3*2530"
+	  mass_unit		  "kg"
+	  mass_conf		  "compiletime"
+	  sp_heat		  "720"
+	  sp_heat_unit		  "J/kg/K"
+	  sp_heat_conf		  "compiletime"
+	  T_specify		  on
+	  T_priority		  "High"
+	  T			  "20"
+	  T_unit		  "degC"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Rotation		    -1.5707963267948966
+	    Position		    [605, 86]
+	  }
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn1"
+	  SID			  "114"
+	  Position		  [25, 33, 55, 47]
+	  ZOrder		  -10
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn2"
+	  SID			  "115"
+	  Position		  [745, 33, 775, 47]
+	  ZOrder		  -11
+	  BlockMirror		  on
+	  Port			  "2"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  1
+	  SrcBlock		  "Conn1"
+	  SrcPort		  RConn1
+	  DstBlock		  "Conductive Heat\nTransfer"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  2
+	  SrcBlock		  "window"
+	  SrcPort		  LConn1
+	  Points		  [0, -35]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Conductive Heat\nTransfer"
+	    DstPort		    RConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Conductive Heat\nTransfer1"
+	    DstPort		    LConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  5
+	  SrcBlock		  "window1"
+	  SrcPort		  LConn1
+	  Points		  [0, -35]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Conductive Heat\nTransfer3"
+	    DstPort		    LConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Conductive Heat\nTransfer2"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  8
+	  SrcBlock		  "Conductive Heat\nTransfer3"
+	  SrcPort		  RConn1
+	  DstBlock		  "Conn2"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  9
+	  SrcBlock		  "Conductive Heat\nTransfer4"
+	  SrcPort		  LConn1
+	  DstBlock		  "Conductive Heat\nTransfer1"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  10
+	  SrcBlock		  "Conductive Heat\nTransfer5"
+	  SrcPort		  RConn1
+	  DstBlock		  "Conductive Heat\nTransfer2"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  11
+	  SrcBlock		  "argon"
+	  SrcPort		  LConn1
+	  Points		  [0, -35]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Conductive Heat\nTransfer4"
+	    DstPort		    RConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Conductive Heat\nTransfer5"
+	    DstPort		    LConn1
+	  }
+	}
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "room"
+      SID		      "35"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [450, 195, 490, 235]
+      ZOrder		      -35
+      BlockRotation	      270
+      BlockMirror	      on
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+      SourceType	      "Thermal Mass"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.elements.mass"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"M\",\"label\":\"\",\"type\":\"foundation.t"
+      "hermal.thermal\"}],\"Right\":[],\"Top\":[]}"
+      ComponentPath	      "foundation.thermal.elements.mass"
+      ComponentVariants	      "foundation.thermal.elements.mass"
+      ComponentVariantNames   "mass"
+      ClassName		      "mass"
+      SchemaVersion	      "1"
+      mass		      "1.204*10*2.5"
+      mass_unit		      "kg"
+      mass_conf		      "compiletime"
+      sp_heat		      "1004"
+      sp_heat_unit	      "J/kg/K"
+      sp_heat_conf	      "compiletime"
+      T_specify		      on
+      T_priority	      "High"
+      T			      "20"
+      T_unit		      "degC"
+      T_nominal_specify	      off
+      T_nominal_unit	      "K"
+      T_nominal_value	      "1"
+      Q_specify		      off
+      Q_priority	      "None"
+      Q			      "0"
+      Q_unit		      "J/s"
+      Q_nominal_specify	      off
+      Q_nominal_unit	      "J/s"
+      Q_nominal_value	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Rotation		-1.5707963267948966
+	Position		[470, 191]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "room1"
+      SID		      "36"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [450, 480, 490, 520]
+      ZOrder		      -36
+      BlockRotation	      270
+      BlockMirror	      on
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+      SourceType	      "Thermal Mass"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.elements.mass"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"M\",\"label\":\"\",\"type\":\"foundation.t"
+      "hermal.thermal\"}],\"Right\":[],\"Top\":[]}"
+      ComponentPath	      "foundation.thermal.elements.mass"
+      ComponentVariants	      "foundation.thermal.elements.mass"
+      ComponentVariantNames   "mass"
+      ClassName		      "mass"
+      SchemaVersion	      "1"
+      mass		      "1.204*10*2.5"
+      mass_unit		      "kg"
+      mass_conf		      "compiletime"
+      sp_heat		      "1004"
+      sp_heat_unit	      "J/kg/K"
+      sp_heat_conf	      "compiletime"
+      T_specify		      on
+      T_priority	      "High"
+      T			      "20"
+      T_unit		      "degC"
+      T_nominal_specify	      off
+      T_nominal_unit	      "K"
+      T_nominal_value	      "1"
+      Q_specify		      off
+      Q_priority	      "None"
+      Q			      "0"
+      Q_unit		      "J/s"
+      Q_nominal_specify	      off
+      Q_nominal_unit	      "J/s"
+      Q_nominal_value	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Rotation		-1.5707963267948966
+	Position		[470, 476]
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "room2"
+      SID		      "116"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [450, 775, 490, 815]
+      ZOrder		      -37
+      BlockRotation	      270
+      BlockMirror	      on
+      LibraryVersion	      "10000000.1"
+      SourceBlock	      "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+      SourceType	      "Thermal Mass"
+      SourceProductName	      "Simscape"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.thermal.elements.mass"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"M\",\"label\":\"\",\"type\":\"foundation.t"
+      "hermal.thermal\"}],\"Right\":[],\"Top\":[]}"
+      ComponentPath	      "foundation.thermal.elements.mass"
+      ComponentVariants	      "foundation.thermal.elements.mass"
+      ComponentVariantNames   "mass"
+      ClassName		      "mass"
+      SchemaVersion	      "1"
+      mass		      "1.204*10*2.5"
+      mass_unit		      "kg"
+      mass_conf		      "compiletime"
+      sp_heat		      "1004"
+      sp_heat_unit	      "J/kg/K"
+      sp_heat_conf	      "compiletime"
+      T_specify		      on
+      T_priority	      "High"
+      T			      "20"
+      T_unit		      "degC"
+      T_nominal_specify	      off
+      T_nominal_unit	      "K"
+      T_nominal_value	      "1"
+      Q_specify		      off
+      Q_priority	      "None"
+      Q			      "0"
+      Q_unit		      "J/s"
+      Q_nominal_specify	      off
+      Q_nominal_unit	      "J/s"
+      Q_nominal_value	      "1"
+      Port {
+	PortType		2
+	PortNumber		1
+	Rotation		-1.5707963267948966
+	Position		[470, 771]
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "simple_vitrage"
+      SID		      "37"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [700, 113, 790, 177]
+      ZOrder		      -38
+      RequestExecContextInheritance off
+      System {
+	Name			"simple_vitrage"
+	Location		[-8, -8, 1928, 1208]
+	Open			on
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	SimulinkSubDomain	"Simulink"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Conductive Heat\nTransfer"
+	  SID			  "38"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [80, 26, 120, 54]
+	  ZOrder		  -1
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+	  SourceType		  "Conductive Heat\nTransfer"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.conduction"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.the"
+	  "rmal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.conduction"
+	  ComponentVariants	  "foundation.thermal.elements.conduction"
+	  ComponentVariantNames	  "conduction"
+	  ClassName		  "conduction"
+	  SchemaVersion		  "1"
+	  area			  "0.6*1"
+	  area_unit		  "m^2"
+	  area_conf		  "compiletime"
+	  thickness		  "1.5"
+	  thickness_unit	  "mm"
+	  thickness_conf	  "compiletime"
+	  th_cond		  "1.2"
+	  th_cond_unit		  "W/(m*K)"
+	  th_cond_conf		  "compiletime"
+	  T_specify		  off
+	  T_priority		  "None"
+	  T			  "0"
+	  T_unit		  "K"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Position		    [76, 40]
+	  }
+	  Port {
+	    PortType		    3
+	    PortNumber		    1
+	    Position		    [124, 40]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Conductive Heat\nTransfer1"
+	  SID			  "39"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [235, 26, 275, 54]
+	  ZOrder		  -2
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Conductive Heat\nTransfer"
+	  SourceType		  "Conductive Heat\nTransfer"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.conduction"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"A\",\"label\":\"A\",\"type\":\"foundation.the"
+	  "rmal.thermal\"}],\"Right\":[{\"id\":\"B\",\"label\":\"B\",\"type\":\"foundation.thermal.thermal\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.conduction"
+	  ComponentVariants	  "foundation.thermal.elements.conduction"
+	  ComponentVariantNames	  "conduction"
+	  ClassName		  "conduction"
+	  SchemaVersion		  "1"
+	  area			  "0.6*1"
+	  area_unit		  "m^2"
+	  area_conf		  "compiletime"
+	  thickness		  "1.5"
+	  thickness_unit	  "mm"
+	  thickness_conf	  "compiletime"
+	  th_cond		  "1.2"
+	  th_cond_unit		  "W/(m*K)"
+	  th_cond_conf		  "compiletime"
+	  T_specify		  off
+	  T_priority		  "None"
+	  T			  "0"
+	  T_unit		  "K"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Position		    [231, 40]
+	  }
+	  Port {
+	    PortType		    3
+	    PortNumber		    1
+	    Position		    [279, 40]
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "window"
+	  SID			  "40"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [160, 90, 200, 130]
+	  ZOrder		  -3
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  LibraryVersion	  "10000000.1"
+	  SourceBlock		  "fl_lib/Thermal/Thermal Elements/Thermal Mass"
+	  SourceType		  "Thermal Mass"
+	  SourceProductName	  "Simscape"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.thermal.elements.mass"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"M\",\"label\":\"\",\"type\":\"foundation.ther"
+	  "mal.thermal\"}],\"Right\":[],\"Top\":[]}"
+	  ComponentPath		  "foundation.thermal.elements.mass"
+	  ComponentVariants	  "foundation.thermal.elements.mass"
+	  ComponentVariantNames	  "mass"
+	  ClassName		  "mass"
+	  SchemaVersion		  "1"
+	  mass			  "0.6*1*3e-3*2530"
+	  mass_unit		  "kg"
+	  mass_conf		  "compiletime"
+	  sp_heat		  "720"
+	  sp_heat_unit		  "J/kg/K"
+	  sp_heat_conf		  "compiletime"
+	  T_specify		  on
+	  T_priority		  "High"
+	  T			  "20"
+	  T_unit		  "degC"
+	  T_nominal_specify	  off
+	  T_nominal_unit	  "K"
+	  T_nominal_value	  "1"
+	  Q_specify		  off
+	  Q_priority		  "None"
+	  Q			  "0"
+	  Q_unit		  "J/s"
+	  Q_nominal_specify	  off
+	  Q_nominal_unit	  "J/s"
+	  Q_nominal_value	  "1"
+	  Port {
+	    PortType		    2
+	    PortNumber		    1
+	    Rotation		    -1.5707963267948966
+	    Position		    [180, 86]
+	  }
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn1"
+	  SID			  "41"
+	  Position		  [25, 33, 55, 47]
+	  ZOrder		  -4
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn2"
+	  SID			  "42"
+	  Position		  [300, 33, 330, 47]
+	  ZOrder		  -5
+	  BlockMirror		  on
+	  Port			  "2"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  1
+	  Points		  [180, 40; -45, 0]
+	  DstBlock		  "Conductive Heat\nTransfer"
+	  DstPort		  RConn1
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    DstBlock		    "Conductive Heat\nTransfer1"
+	    DstPort		    LConn1
+	  }
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "window"
+	    SrcPort		    LConn1
+	    Points		    [0, -35]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  4
+	  SrcBlock		  "Conn1"
+	  SrcPort		  RConn1
+	  DstBlock		  "Conductive Heat\nTransfer"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  5
+	  SrcBlock		  "Conn2"
+	  SrcPort		  RConn1
+	  DstBlock		  "Conductive Heat\nTransfer1"
+	  DstPort		  RConn1
+	}
+      }
+    }
+    Line {
+      ZOrder		      1
+      SrcBlock		      "PS-Simulink\nConverter"
+      SrcPort		      1
+      Points		      [-50, 0; 0, 275]
+      DstBlock		      "Mux"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      2
+      SrcBlock		      "Constant"
+      SrcPort		      1
+      DstBlock		      "Simulink-PS\nConverter"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      3
+      SrcBlock		      "PS-Simulink\nConverter1"
+      SrcPort		      1
+      DstBlock		      "Mux"
+      DstPort		      2
+    }
+    Line {
+      ZOrder		      4
+      SrcBlock		      "Constant1"
+      SrcPort		      1
+      DstBlock		      "Simulink-PS\nConverter1"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      5
+      SrcBlock		      "Mux"
+      SrcPort		      1
+      DstBlock		      "Scope"
+      DstPort		      1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      6
+      SrcBlock		      "Thermal Reference2"
+      SrcPort		      LConn1
+      DstBlock		      "Ideal Temperature\nSource1"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      7
+      SrcBlock		      "Simulink-PS\nConverter1"
+      SrcPort		      RConn1
+      Points		      [-100, 0]
+      DstBlock		      "Ideal Temperature\nSource1"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      8
+      SrcBlock		      "Thermal Reference"
+      SrcPort		      LConn1
+      DstBlock		      "Ideal Temperature\nSource"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      9
+      SrcBlock		      "Simulink-PS\nConverter"
+      SrcPort		      RConn1
+      Points		      [-100, 0]
+      DstBlock		      "Ideal Temperature\nSource"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      10
+      SrcBlock		      "PS-Simulink\nConverter1"
+      SrcPort		      LConn1
+      DstBlock		      "Ideal Temperature\nSensor1"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      11
+      SrcBlock		      "Thermal Reference3"
+      SrcPort		      LConn1
+      Points		      [0, -15]
+      DstBlock		      "Ideal Temperature\nSensor1"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      12
+      SrcBlock		      "PS-Simulink\nConverter"
+      SrcPort		      LConn1
+      DstBlock		      "Ideal Temperature\nSensor"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      13
+      SrcBlock		      "Thermal Reference1"
+      SrcPort		      LConn1
+      Points		      [0, -15]
+      DstBlock		      "Ideal Temperature\nSensor"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      14
+      SrcBlock		      "Ideal Temperature\nSource1"
+      SrcPort		      LConn1
+      DstBlock		      "Convective Heat\nTransfer3"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      15
+      SrcBlock		      "Convective Heat\nTransfer3"
+      SrcPort		      LConn1
+      DstBlock		      "double_vitrage"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      16
+      SrcBlock		      "Convective Heat\nTransfer2"
+      SrcPort		      RConn1
+      DstBlock		      "double_vitrage"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      17
+      SrcBlock		      "Solver\nConfiguration1"
+      SrcPort		      RConn1
+      Points		      [-20, 0; 0, 85]
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Ideal Temperature\nSensor1"
+	DstPort			LConn1
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	Points			[470, 430; -100, 0]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "room1"
+	  SrcPort		  LConn1
+	  Points		  [0, -35]
+	}
+	Branch {
+	  ConnectType		  "SRC_SRC"
+	  DstBlock		  "Convective Heat\nTransfer2"
+	  DstPort		  LConn1
+	}
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      22
+      SrcBlock		      "Ideal Temperature\nSource"
+      SrcPort		      LConn1
+      DstBlock		      "Convective Heat\nTransfer1"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      23
+      SrcBlock		      "Convective Heat\nTransfer1"
+      SrcPort		      LConn1
+      DstBlock		      "simple_vitrage"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      24
+      SrcBlock		      "Convective Heat\nTransfer"
+      SrcPort		      RConn1
+      DstBlock		      "simple_vitrage"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      25
+      SrcBlock		      "room"
+      SrcPort		      LConn1
+      Points		      [0, -35]
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[-100, 0]
+	Branch {
+	  ConnectType		  "DEST_DEST"
+	  SrcBlock		  "Solver\nConfiguration"
+	  SrcPort		  RConn1
+	  Points		  [-20, 0; 0, 85]
+	}
+	Branch {
+	  ConnectType		  "DEST_SRC"
+	  DstBlock		  "Ideal Temperature\nSensor"
+	  DstPort		  LConn1
+	}
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Convective Heat\nTransfer"
+	DstPort			LConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      30
+      Points		      [470, 725; 90, 0]
+      DstBlock		      "Convective Heat\nTransfer4"
+      DstPort		      LConn1
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"room2"
+	SrcPort			LConn1
+	Points			[0, -35]
+      }
+      Branch {
+	ConnectType		"SRC_SRC"
+	Points			[-100, 0]
+	Branch {
+	  ConnectType		  "DEST_DEST"
+	  SrcBlock		  "Solver\nConfiguration2"
+	  SrcPort		  RConn1
+	  Points		  [-20, 0; 0, 85]
+	}
+	Branch {
+	  ConnectType		  "DEST_SRC"
+	  DstBlock		  "Ideal Temperature\nSensor2"
+	  DstPort		  LConn1
+	}
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      35
+      SrcBlock		      "Thermal Reference5"
+      SrcPort		      LConn1
+      Points		      [0, -15]
+      DstBlock		      "Ideal Temperature\nSensor2"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      36
+      SrcBlock		      "PS-Simulink\nConverter2"
+      SrcPort		      LConn1
+      DstBlock		      "Ideal Temperature\nSensor2"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      37
+      SrcBlock		      "Thermal Reference4"
+      SrcPort		      LConn1
+      DstBlock		      "Ideal Temperature\nSource2"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      38
+      SrcBlock		      "Simulink-PS\nConverter2"
+      SrcPort		      RConn1
+      Points		      [-100, 0]
+      DstBlock		      "Ideal Temperature\nSource2"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      39
+      SrcBlock		      "Ideal Temperature\nSource2"
+      SrcPort		      LConn1
+      DstBlock		      "Convective Heat\nTransfer5"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      40
+      SrcBlock		      "Convective Heat\nTransfer5"
+      SrcPort		      LConn1
+      DstBlock		      "double_vitrage gaz argon"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      41
+      SrcBlock		      "Convective Heat\nTransfer4"
+      SrcPort		      RConn1
+      DstBlock		      "double_vitrage gaz argon"
+      DstPort		      LConn1
+    }
+    Line {
+      ZOrder		      42
+      SrcBlock		      "Constant2"
+      SrcPort		      1
+      DstBlock		      "Simulink-PS\nConverter2"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      43
+      SrcBlock		      "PS-Simulink\nConverter2"
+      SrcPort		      1
+      Points		      [-45, 0; 0, -285]
+      DstBlock		      "Mux"
+      DstPort		      3
+    }
+    Annotation {
+      SID		      "118"
+      Name		      "Double Vitrage"
+      Position		      [691, 350, 801, 375]
+      InternalMargins	      [0, 0, 0, 0]
+      ZOrder		      -1
+      FontName		      "Arial Narrow"
+      FontSize		      20
+    }
+    Annotation {
+      SID		      "119"
+      Name		      "Simple Vitrage"
+      Position		      [692, 65, 800, 90]
+      InternalMargins	      [0, 0, 0, 0]
+      ZOrder		      -2
+      FontName		      "Arial Narrow"
+      FontSize		      20
+    }
+    Annotation {
+      SID		      "120"
+      Name		      "Simulation de 10 heures"
+      Position		      [17, 10, 195, 35]
+      InternalMargins	      [0, 0, 0, 0]
+      ZOrder		      -3
+      FontName		      "Arial Narrow"
+      FontSize		      20
+    }
+    Annotation {
+      SID		      "121"
+      Name		      "Double Vitrage gaz argon"
+      Position		      [653, 645, 840, 670]
+      InternalMargins	      [0, 0, 0, 0]
+      ZOrder		      -4
+      FontName		      "Arial Narrow"
+      FontSize		      20
+    }
+  }
+}
